@@ -1,0 +1,1 @@
+import{q as u,r,s as a}from"./index-C2jidOLe.js";const l=u("counter",()=>{const e=r(0),t=r(JSON.parse(localStorage.getItem("problemArr")||"[]")),o=r(JSON.parse(localStorage.getItem("resultArr")||"[]")),n=a(()=>e.value*2);function s(){e.value++}return{count:e,doubleCount:n,increment:s,problemArr:t,resultArr:o}});export{l as u};
